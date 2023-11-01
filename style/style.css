@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.button__bus,
+.button__tram,
+.button__metro {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.button__bus:hover,
+.button__tram:hover,
+.button__metro:hover {
+  background-color: #0055a4;
+}
+
+.footer-list__item {
+  margin-right: 10px;
+}
+
+.btn {
+  vertical-align: middle;
+}
+
+/* Style the main element */
+.main {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the container within the main element */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the number-transport div */
+.number-transport {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the number-transport button */
+.number-transport__button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.number-transport__button:hover {
+  background-color: #0055a4;
+}
+
+.timetable {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.timetable-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+/* .timetable-list__item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+} */
